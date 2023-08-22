@@ -22,10 +22,9 @@ main {
 .main_info div {
     display: flex;
     column-gap: 32px;
-
 }
 
-.main_info div a, .main_info div button{
+.main_info div a, .main_info div button {
     width: 100%;
     padding: 10px 0;
     border-radius: 3px;
@@ -37,13 +36,31 @@ main {
     letter-spacing: 0.3px;
 
     transform: skew(-10deg);
+    transition: all 0.4s;
 }
 
-.main_info div a{
-    background: var(--red);
+.main_info div a {
+    background: transparent;
+    border: 1px solid var(--red);
 }
 
-.main_info div button{
+.main_info div button {
     background: transparent;
     border: 1px solid var(--green);
+}
+
+.main_info div button:hover {
+    cursor: pointer;
+    background: var(--red);
+    border: hidden;
+
+    transform: translateY(-5px);
+}
+
+.main_info div a:hover {
+    cursor: pointer;
+    background: var(--green);
+    border: hidden;
+
+    transform: translateY(-5px);
 }
