@@ -16,9 +16,17 @@
   --yellow: #ffc12b;
 }
 
+body {
+  width: 100%;
+  
+  border-radius: 1px solid white;
+  margin-left: 7%;
+}
+
 body, button, a {
   color: var(--text);
   font: 400 1rem "Mukta", sans-serif;
+
 }
 
 a {

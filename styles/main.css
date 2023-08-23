@@ -25,7 +25,8 @@ main {
 }
 
 .main_info div a, .main_info div button {
-    width: 100%;
+    width: 80%;
+    margin-left: 5px;
     padding: 10px 0;
     border-radius: 3px;
 
